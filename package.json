@@ -1,0 +1,28 @@
+{
+  "name": "RewardWallet-API",
+  "version": "1.0.0",
+  "description": "A parse-server module running on Express",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RewardWallet/Backend-API"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@parse/simple-mailgun-adapter": "^1.0.1",
+    "dotenv": "^4.0.0",
+    "express": "~4.11.x",
+    "kerberos": "~0.0.x",
+    "nodemon": "^1.14.11",
+    "parse": "~1.8.0",
+    "parse-dashboard": "*",
+    "parse-server": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
