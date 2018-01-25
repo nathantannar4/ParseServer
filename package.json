@@ -1,11 +1,11 @@
 {
-  "name": "RewardWallet-API",
+  "name": "ParseServer",
   "version": "1.0.0",
   "description": "A parse-server module running on Express",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RewardWallet/Backend-API"
+    "url": "https://github.com/nathantannar4/ParseServer"
   },
   "license": "MIT",
   "dependencies": {
